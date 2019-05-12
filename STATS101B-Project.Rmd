@@ -1,15 +1,16 @@
 ---
-title: "Research Project on Island: Music and Mind"
-# author: "Kaixin Wang"
+title: "Research Project on The Island - Music and Mind"
 subtitle: "STATS 101B"
 author: 'Group: Island Scientists'
 date: "Spring 2019"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ## Abstract:
+
+The goal of this research project is to find whether there is an effect of music on human's thinking. The research is conducted using the open platform [`The Island`](http://island.maths.uq.edu.au).
 
 ## Conjecture:
 
