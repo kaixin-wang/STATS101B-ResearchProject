@@ -1,0 +1,93 @@
+---
+title: "Music and Memory"
+subtitle: "The Island Research Project - Statistics 101B"
+author: 'Lizhou Fan, Kaixin Wang and Huizi Yu'
+date: "Spring 2019"
+figsintext: yes
+output:
+  pdf_document:
+    fig_caption: yes
+    keep_tex: yes
+    toc: true
+    number_sections: false
+header-includes: 
+  \usepackage{float}
+  \floatplacement{figure}{H}
+---
+
+# Abstract
+
+The goal of this research project is to find whether there is an effect of music on islander's memoriation ability. The research is conducted using the open platform `The Island`[^1].
+
+# Conjecture
+
+From many publication references[^2], we found that music seems to have a positive effect on human being's memory. Different types of music tend to have various effects. In addition, the effect of music on memory varies among individuals, and the time it takes for the treatment to take effect also varies from one individual to another. *Therefore, our research project focuses on analyzing the effect of music on the islanders using a Latin Square design.*
+
+# Experiment
+
+## Design
+
+The design that we have chosen to use in this project is Latin Square. 
+
+<center>
+
+![Latin Square Design](Picture1.png){width=40%}
+
+</center>
+
+- Held-constant variables: 
+    + gender: female, 
+    + region: one town
+    + age: 20 - 30 years old
+- Nuisance factors:
+    + music: no music, type 1, type 2, type 3, or type 4
+    + time between music treatment and memory test: 20, 30, 40, 50, or 60 minutes
+
+## Participants
+
+## Sample size determination
+
+## Sample selection
+
+# Data Analysis
+
+## Analysis of Variance (ANOVA)
+
+## Assumption checking
+
+## Graphical analysis
+
+# Conclusion
+
+# References
+
+## Journal References
+
+- [`Music And The Brain`](https://www.scientificamerican.com/article/music-and-the-brain-2006-09/), Norman M. Weinberger. *Scientific American*, September 1, 2006.
+- [`Your Brain on Music`](https://www.ucf.edu/pegasus/your-brain-on-music/), *The Magazine of the University of Central Florida*.
+- [`Music Moves Brain to Pay Attention`](https://med.stanford.edu/news/all-news/2007/07/music-moves-brain-to-pay-attention-stanford-study-finds.html), Mitzi Baker. *Stanford Medicine News Center*, August 1, 2007.
+- [`This is Your Brain on Music`](https://www.cnn.com/2013/04/15/health/brain-music-research/index.html), Elizabeth Landau. *CNN*, January 23, 2018.
+- [`Music and health`](https://www.health.harvard.edu/staying-healthy/music-and-health), *Harvard Medical School*, July 2011.
+
+## Publication References
+
+- [`A neuropsychological investigation of music, emotion, and autobiographical memory`](https://search.proquest.com/docview/1701283142?pq-origsite=summon&accountid=14512), Belfi, Amy Meredith. *University of Iowa*, 2015. 
+- [`Music in the brain: Differences between musicians and non-musicians`](https://search.proquest.com/docview/304910597?pq-origsite=summon&accountid=14512), Orlando, Julie. *University of Northern British Columbia (Canada)*, 2006. 
+- [`Music for the Mind: A Study Into Musical Preferences, Personality Traits and Memory Retention`](https://search.proquest.com/docview/2083960675?accountid=14512), Rogers, Rhiannon. *Western Sydney University (Australia)*, 2018. 
+- [`Music and cognitive abilities: A look at the Mozart Effect`](https://search.proquest.com/docview/305228684?pq-origsite=summon&accountid=14512), Bressler, Randy A. *The Chicago School of Professional Psychology*, 2003. 
+- [`Music and the Brain`](https://www.sciencedirect.com/science/article/pii/S1878875010001129), Edward R. Laws, Jr. *Harvard University*, 2010. 
+
+
+[^1]: [`The Island: http://island.maths.uq.edu.au`](`http://island.maths.uq.edu.au`)
+[^2]: See Reference section.
+
+```{r, include = F}
+# 
+# Alternative method:
+# \begin{figure}[H]
+# \centering
+# \includegraphics[width=2in]{Picture1.png}
+# \caption{Latin Square Design}
+# \end{figure}
+```
+
