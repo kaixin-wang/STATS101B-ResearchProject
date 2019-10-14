@@ -8,7 +8,7 @@ output:
   pdf_document:
     fig_caption: yes
     keep_tex: yes
-    number_sections: false
+    number_sections: true
 header-includes: 
   \usepackage{float}
   \floatplacement{figure}{H}
