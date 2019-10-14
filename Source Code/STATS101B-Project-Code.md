@@ -1,6 +1,7 @@
 Music and Memory
 ================
 Lizhou Fan, Kaixin Wang, Huizi Yu
+
 Statistics 101B - Spring 2019
 
 Abstract
