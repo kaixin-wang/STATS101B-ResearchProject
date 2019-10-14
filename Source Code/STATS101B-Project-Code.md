@@ -40,7 +40,7 @@ In the model, *α* and *β* are the two blocking factors, while *γ* represents 
 We created a 5x5 Latin Square matrix with each treatment occurring once per row, and once per column. As the visualization below shows, these music and non-music treatments were each assigned a letter from A to E, i.e. No music (A), Classical Music (B), Country Music (C), Dance Music (D), and Heavy Metal Music (E).
 
 <center>
-<img src="Square.png" alt="Latin Square Design" style="width:45.0%" />
+<img src="Square.png" alt="Latin Square Design" style="width:10.0%" />
 
 </center>
 Then we created 5 replicates of the 5x5 Latin Square. To make a complete random Latin-square design, we implemented the random assignment method to shuffle the rows and columns. Using R, we assigned the numbers from 1 to 25 to the 25 participants and generated a random sequence (A) of number from 1 to 25 (`set.seed(100000)`). Then we generated a random sequence (B) of 1 to 5 (`set.seed(100000)`). We assigned the participants indexed with the first five number of sequence A to the Latin Square replicate indexed with the first number in sequence B and the next five in A to the second number in B, etc. Finally, we randomly permuted the columns, randomly permute the rows, and then assign the treatments to the Latin letters in a random fashion. We ensured each treatment occur once in each row and each column.
