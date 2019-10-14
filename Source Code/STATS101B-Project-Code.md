@@ -1,6 +1,6 @@
 Music and Memory
 ================
-Lizhou Fan - <lizhou@ucla.edu>
+Lizhou Fan, Kaixin Wang, Huizi Yu
 Statistics 101B - Spring 2019
 
 Abstract

@@ -2,10 +2,10 @@
 title: "Music and Memory"
 subtitle: "The Island Research Project"
 date: "Statistics 101B - Spring 2019"
-author: 
-- "Lizhou Fan - lizhou@ucla.edu"
-- "Kaixin Wang - kaixinwang@ucla.edu"
-- "Huizi Yu - huiziy@ucla.edu"
+author: "Lizhou Fan, Kaixin Wang, Huizi Yu"
+# - "Lizhou Fan - lizhou@ucla.edu"
+# - "Kaixin Wang - kaixinwang@ucla.edu"
+# - "Huizi Yu - huiziy@ucla.edu"
 output: rmarkdown::github_document
   # pdf_document:
   #   fig_caption: yes
