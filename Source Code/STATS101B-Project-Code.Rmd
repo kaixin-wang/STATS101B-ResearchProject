@@ -1,8 +1,8 @@
 ---
 title: "Music and Memory"
 subtitle: "The Island Research Project"
-date: "Statistics 101B - Spring 2019"
 author: "Lizhou Fan, Kaixin Wang, Huizi Yu"
+date: "Statistics 101B - Spring 2019"
 # - "Lizhou Fan - lizhou@ucla.edu"
 # - "Kaixin Wang - kaixinwang@ucla.edu"
 # - "Huizi Yu - huiziy@ucla.edu"
